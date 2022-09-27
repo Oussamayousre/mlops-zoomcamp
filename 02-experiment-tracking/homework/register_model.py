@@ -16,7 +16,6 @@ EXPERIMENT_NAME = "random-forest-best-models"
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 mlflow.set_experiment(EXPERIMENT_NAME)
 mlflow.sklearn.autolog()
-#gvjhgjgv
 SPACE = {
     'max_depth': scope.int(hp.quniform('max_depth', 1, 20, 1)),
     'n_estimators': scope.int(hp.quniform('n_estimators', 10, 50, 1)),
@@ -25,7 +24,7 @@ SPACE = {
     'random_state': 42
 }
 
-
+fdgedfgedrftgedrftedrftgb
 def load_pickle(filename):
     with open(filename, "rb") as f_in:
         return pickle.load(f_in)
